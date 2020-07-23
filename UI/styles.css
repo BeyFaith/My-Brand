@@ -1,4 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+@media screen and (max-width: 800px) {
+    .left, .main, .right {
+      width: 100%; 
+    }
+}
 * {
     margin: 0;
     padding: 0;
@@ -57,7 +62,7 @@ padding: 20px;
     justify-content:center;
     display:flex;
     margin-top: 4rem;
-    color: #588678;
+    color: #F2994A;
 }
 .row {
     display: flex;
@@ -88,6 +93,14 @@ background:#588678;
 padding: 20px;
 margin-bottom: -30px;
 
+}
+#footer nav li{
+    color: #F2994A;
+    display: inline;
+    margin: auto;
+}
+footer nav {
+    width: 80%;
 }
 .container {
     width: 80%;
@@ -295,5 +308,8 @@ footer nav {
     font-size: 15px;
     margin: 4px 2px 4px 40px;
     cursor: pointer;
+}
+#description p{
+    color: silver;
 }
 
