@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -7,10 +8,10 @@ body {
     background:rgba(126, 92, 92);
     box-shadow:  rgba(0, 0, 0, 0.25);
     font-family: Poppins;
+    font-size:15px;
 }
 nav {
     margin: auto;
-   
     width: 80%;
 }
 a {
@@ -27,7 +28,7 @@ ul{
 li {
     display: inline;
     padding:4em;
-}
+} 
 #header {
 width: 100%;
 height: 5vh;
@@ -79,26 +80,7 @@ padding: 20px;
       height:auto;
 
   }
-nav {
-    margin: auto;
-   
-    width: 80%;
-}
-a {
-    color:#F2994A;
-    text-decoration: none;
-    text-transform: uppercase;
-    
 
-}
-ul{ 
-    text-align:center 
-}
-
-li {
-    display: inline;
-    padding:4em;
-}
 #footer {
 width: 100%;
 height:5vh;
@@ -116,7 +98,7 @@ margin-bottom: -30px;
 #about>h2{
     justify-content:center;
     display:flex;
-    margin-top: 4rem;
+    margin-top: 2rem;
     color: #588678;
     margin-bottom: 2rem;
 }
@@ -128,12 +110,77 @@ margin-bottom: -30px;
 #about .row .column p{
     width:80%;
     height:auto;
-    color: #588678;
+    color: silver;
     text-align:center;
 }
 .column h4 {
     color:#F2994A;
     text-align: center;
 }
+header {
+    width:100%;
+    height:5vh;
+    background: #588678;
+    padding: 20px;
+}
+main{
+    width:100%;
+    height: 100vh;
+    background: rgba(126, 92, 92);
+    box-shadow:  rgba(0, 0, 0, 0.25);;
+}
+footer nav{
+    width:80%;
+}
+footer{
+    width:100%;
+    height:10vh;
+    background: #588678;;
+}
 
+#form {
+    justify-content:center;
+    display:flex;
+}
+#contact h2 {
+    justify-content:center;
+    display:flex;
+    color: #F2994A;
+}
+#contact{
+    margin-left: 5em;
+    margin-top: 5em;
+}
+#form {
+    margin-top: 5em;
+}
+#form #name{
+    justify-content:center;
+    display:flex;
+}
+
+.button {
+    background-color:#F2994A;
+    border: none;
+    color: #5A554D;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px 4px 110px;
+    cursor: pointer;
+    
+  }
+#name {
+    height: 2rem;
+    text-align:center;
+}
+#email {
+    height: 2rem;
+    text-align:center;
+}
+#message{
+    text-align: center;
+}
   
