@@ -220,3 +220,43 @@ footer nav li{
 footer nav {
     width: 80%;
 }
+#signup h2{
+    text-align: center;
+    color: #F2994A;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+#signup form{
+    text-align:center;
+}
+#signup #name{
+    height: 2rem;
+    text-align:center;
+    width: 20rem;
+}
+#signup #email{
+    height: 2rem;
+    text-align:center;
+    width: 20rem;
+}
+#signup #password{
+    height: 2rem;
+    text-align:center;
+    width: 20rem;
+}
+#signup #signin p{
+    color: silver;
+    
+}
+#signup .button{
+    background-color:#F2994A;
+    border: none;
+    color: #5A554D;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 4px 2px 4px 40px;
+    cursor: pointer;
+}
