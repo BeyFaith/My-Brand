@@ -1,0 +1,315 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+@media screen and (max-width: 800px) {
+    .left, .main, .right {
+      width: 100%; 
+    }
+}
+* {
+    margin: 0;
+    padding: 0;
+
+}
+body {
+    background:rgba(126, 92, 92);
+    box-shadow:  rgba(0, 0, 0, 0.25);
+    font-family: Poppins;
+    font-size:15px;
+}
+nav {
+    margin: auto;
+    width: 80%;
+}
+a {
+    color:#F2994A;
+    text-decoration: none;
+    text-transform: uppercase;
+    
+
+}
+ul{ 
+    text-align:center 
+}
+
+li {
+    display: inline;
+    padding:2em;
+} 
+#header {
+width: 100%;
+height: 5vh;
+background:#588678;
+padding: 20px;
+}
+#intro {
+    justify-content:center;
+    margin-left: 5em;
+    margin-top: 5em;
+    display:flex;
+    align-items:center;
+}
+
+.words {
+    margin-left: 3em;
+    padding: 2em;
+    color:#F2994A;
+    
+}
+.m {
+    margin: 2rem 0 2rem 0;
+    
+}
+#projects>h2{
+    justify-content:center;
+    display:flex;
+    margin-top: 4rem;
+    color: #F2994A;
+}
+.row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 33.33%;
+    padding: 5px;
+  }
+  #projects {
+      width:100%;
+      position:relative;
+  }
+  #projects .row{
+      margin:auto;
+      width:80%;
+  }
+  #projects .row .column img{
+      width:80%;
+      height:auto;
+
+  }
+
+#footer {
+width: 100%;
+height:5vh;
+background:#588678;
+padding: 20px;
+margin-bottom: -30px;
+
+}
+#footer nav li{
+    color: #F2994A;
+    display: inline;
+    margin: auto;
+}
+footer nav {
+    width: 80%;
+}
+.container {
+    width: 80%;
+    margin: auto;
+    height: 100vh;
+    
+}
+#about>h2{
+    justify-content:center;
+    display:flex;
+    margin-top: 2rem;
+    color: #588678;
+    margin-bottom: 2rem;
+}
+
+#about .row{
+    margin:auto;
+    width:80%;
+}
+#about .row .column p{
+    width:80%;
+    height:auto;
+    color: silver;
+    text-align:center;
+}
+.column h4 {
+    color:#F2994A;
+    text-align: center;
+}
+header {
+    width:100%;
+    height:5vh;
+    background: #588678;
+    padding: 20px;
+}
+main{
+    width:100%;
+    height: 100vh;
+    background: rgba(126, 92, 92);
+    box-shadow:  rgba(0, 0, 0, 0.25);;
+}
+footer nav{
+    width:80%;
+}
+footer{
+    width:100%;
+    height:10vh;
+    background: #588678;
+}
+
+#form {
+    justify-content:center;
+    display:flex;
+}
+#contact h2 {
+    justify-content:center;
+    display:flex;
+    color: #F2994A;
+}
+#contact{
+    margin-left: 5em;
+    margin-top: 5em;
+}
+#form {
+    margin-top: 5em;
+}
+#form #name{
+    justify-content:center;
+    display:flex;
+}
+
+.button {
+    background-color:#F2994A;
+    border: none;
+    color: #5A554D;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px 4px 110px;
+    cursor: pointer;
+    
+  }
+#name {
+    height: 2rem;
+    text-align:center;
+}
+#contact #email {
+    height: 2rem;
+    text-align:center;
+}
+#message{
+    text-align: center;
+}
+#blog h2{
+    text-align: center;
+    color: #F2994A;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+#blog h3{
+    color:#588678;
+
+}
+#blog p{
+    color: silver;
+}
+#blog h5{
+    color: #F2994A;
+}
+#blog .button {
+    background-color:#F2994A;
+    border: none;
+    color: #5A554D;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 4px 2px 4px 70px;
+    cursor: pointer;
+    
+}
+footer nav li{
+    color: #F2994A;
+    display: inline;
+    margin: auto;
+}
+footer nav {
+    width: 80%;
+}
+#signup h2{
+    text-align: center;
+    color: #F2994A;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+#signup form{
+    text-align:center;
+}
+#signup #name{
+    height: 2rem;
+    text-align:center;
+    width: 20rem;
+}
+#signup #email{
+    height: 2rem;
+    text-align:center;
+    width: 20rem;
+}
+#signup #password{
+    height: 2rem;
+    text-align:center;
+    width: 20rem;
+}
+#signup #signin p{
+    color: silver;
+    
+}
+#signup .button{
+    background-color:#F2994A;
+    border: none;
+    color: #5A554D;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 4px 2px 4px 40px;
+    cursor: pointer;
+}
+#signin h2{
+    text-align: center;
+    color: #F2994A;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+#signin form{
+    text-align:center;
+}
+#signin #email{
+    height: 2rem;
+    text-align:center;
+    width: 20rem;
+}
+#signin #password{
+    height: 2rem;
+    text-align:center;
+    width: 20rem;
+}
+#signin #signup p{
+    color: silver;
+    margin-left:3rem;
+    
+}
+#signin .button{
+    background-color:#F2994A;
+    border: none;
+    color: #5A554D;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 4px 2px 4px 40px;
+    cursor: pointer;
+}
+#description p{
+    color: silver;
+}
+
