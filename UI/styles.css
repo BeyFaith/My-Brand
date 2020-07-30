@@ -1,44 +1,48 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
-@media screen and (max-width: 800px) {
-    .left, .main, .right {
-      width: 100%; 
-    }
-}
 * {
     margin: 0;
-    padding: 0;
-
-}
-body {
-    background:rgba(126, 92, 92);
-    box-shadow:  rgba(0, 0, 0, 0.25);
+    padding:0;
     font-family: Poppins;
-    font-size:15px;
+    font-size: 15px;
+}
+header{
+    width:100%;
+    height:10hv;
+    background:#7E685A;
+}
+main{
+    width:80%;
+    height:100hv;
+    background:white;
+    margin:auto;
+    color: #5A554D;
+}
+footer{
+    width: 100%;
+    height:3hv;
+    background:#7E685A;
 }
 nav {
     margin: auto;
     width: 80%;
+    padding: 2rem;
 }
-a {
+a{
     color:#F2994A;
     text-decoration: none;
-    text-transform: uppercase;
-    
-
+    text-transform: uppercase; 
 }
 ul{ 
-    text-align:center 
+    text-align:center;
 }
-
 li {
     display: inline;
     padding:2em;
-} 
-#header {
-width: 100%;
-height: 5vh;
-background:#588678;
-padding: 20px;
+}
+
+footer nav ul li {
+    
+    color:#F2994A;
 }
 #intro {
     justify-content:center;
@@ -47,12 +51,16 @@ padding: 20px;
     display:flex;
     align-items:center;
 }
+#intro img{
+    border-radius: 2rem;
+    /* width:200px; */
+}
 
 .words {
     margin-left: 3em;
     padding: 2em;
     color:#F2994A;
-    
+    /* font-size: 30px; */
 }
 .m {
     margin: 2rem 0 2rem 0;
@@ -66,54 +74,31 @@ padding: 20px;
 }
 .row {
     display: flex;
-  }
+}
   
-  .column {
+.column {
     flex: 33.33%;
     padding: 5px;
-  }
-  #projects {
-      width:100%;
-      position:relative;
-  }
-  #projects .row{
-      margin:auto;
-      width:80%;
-  }
-  #projects .row .column img{
-      width:80%;
-      height:auto;
-
-  }
-
-#footer {
-width: 100%;
-height:5vh;
-background:#588678;
-padding: 20px;
-margin-bottom: -30px;
-
 }
-#footer nav li{
-    color: #F2994A;
-    display: inline;
-    margin: auto;
+#projects {
+    width:100%;
+    position:relative;
 }
-footer nav {
-    width: 80%;
+#projects .row{
+    margin:auto;
+    width:80%;
 }
-.container {
-    width: 80%;
-    margin: auto;
-    height: 100vh;
-    
+#projects .row .column img{
+    width:80%;
+    height:auto;
 }
 #about>h2{
     justify-content:center;
     display:flex;
     margin-top: 2rem;
-    color: #588678;
+    color: #AFD275;
     margin-bottom: 2rem;
+    text-decoration: underline;
 }
 
 #about .row{
@@ -123,34 +108,14 @@ footer nav {
 #about .row .column p{
     width:80%;
     height:auto;
-    color: silver;
     text-align:center;
+    color: #5A554D;
+
 }
 .column h4 {
     color:#F2994A;
     text-align: center;
 }
-header {
-    width:100%;
-    height:5vh;
-    background: #588678;
-    padding: 20px;
-}
-main{
-    width:100%;
-    height: 100vh;
-    background: rgba(126, 92, 92);
-    box-shadow:  rgba(0, 0, 0, 0.25);;
-}
-footer nav{
-    width:80%;
-}
-footer{
-    width:100%;
-    height:10vh;
-    background: #588678;
-}
-
 #form {
     justify-content:center;
     display:flex;
@@ -181,7 +146,7 @@ footer{
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin: 4px 2px 4px 110px;
+    margin: 4px 2px 4px 130px;
     cursor: pointer;
     
   }
@@ -203,11 +168,12 @@ footer{
     margin-bottom: 3rem;
 }
 #blog h3{
-    color:#588678;
+    color:#AFD275;
+    text-decoration: underline;
 
 }
 #blog p{
-    color: silver;
+    color: #5A554D;
 }
 #blog h5{
     color: #F2994A;
@@ -224,14 +190,6 @@ footer{
     margin: 4px 2px 4px 70px;
     cursor: pointer;
     
-}
-footer nav li{
-    color: #F2994A;
-    display: inline;
-    margin: auto;
-}
-footer nav {
-    width: 80%;
 }
 #signup h2{
     text-align: center;
@@ -281,6 +239,7 @@ footer nav {
 }
 #signin form{
     text-align:center;
+    margin-bottom:80px;
 }
 #signin #email{
     height: 2rem;
@@ -301,7 +260,7 @@ footer nav {
     background-color:#F2994A;
     border: none;
     color: #5A554D;
-    padding: 10px 15px;
+    padding: 10px 10px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -310,6 +269,24 @@ footer nav {
     cursor: pointer;
 }
 #description p{
-    color: silver;
+    color: #5A554D;
 }
-
+#address{
+    border-style: solid;
+    width:300px;
+    border-radius: 1rem;
+    border-color: #5A554D;
+    text-align: center;
+    margin-left:400px;
+    margin-top:30px;
+    margin-bottom:30px;
+}
+#address h4{
+    color:#AFD275;
+}
+#address h5{
+    color:#AFD275; 
+}
+#address p{
+    color:#F2994A;
+}
