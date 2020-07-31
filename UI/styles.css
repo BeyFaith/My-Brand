@@ -1,9 +1,17 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+/* @media only screen and (max-width:500px) {
+    header{
+        float:none;
+        display:block;
+        text-align:left;
+    }
+} */
 * {
     margin: 0;
     padding:0;
     font-family: Poppins;
-    font-size: 15px;
+    font-size: 10vw;
 }
 header{
     width:100%;
@@ -289,4 +297,8 @@ footer nav ul li {
 }
 #address p{
     color:#F2994A;
+}
+img {
+    max-width:100%;
+    height:auto;
 }
