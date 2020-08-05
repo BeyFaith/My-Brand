@@ -21,11 +21,15 @@
             <div id="contact">
                 <h2>Do you have any questions or want to say hi, Shoot me a message and I'll get back to you !</h2>
 
-                <div id="form">
-                    <form action="/action_page.php">
-                        <input type="text" id="name" name="name" size="28" placeholder="Name" required><br>
-                        <input type="text" id="email" name="email" size="28" placeholder="Email" required><br><br>
-                        <textarea rows="10" cols="30" type="text" placeholder="Write your message here" id="message" required></textarea><br><br>
+                <div id="c-form">
+                    <div id="error"></div>
+                    <form id="form">
+                        <input type="text" id="fname" name="name" size="28" placeholder="Name"><br><br>
+                        <div id="fname-error"></div>
+                        <input type="text" id="email" name="email" size="28" placeholder="Email"><br><br>
+                        <div id="email-error"></div>
+                        <textarea rows="10" cols="30" type="text" placeholder="Write your message here" id="message"></textarea><br><br>
+                        <div id="message-error"></div>
                         <div><button class="button" type="submit" name="Submit">Submit</button></div>
                     </form> 
                 </div>  
@@ -50,5 +54,6 @@
                 </ul>
             </nav>
         </footer>
+        <script src="contact.js"></script>
     </body>
 </html>

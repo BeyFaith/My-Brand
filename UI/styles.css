@@ -11,7 +11,7 @@
     margin: 0;
     padding:0;
     font-family: Poppins;
-    font-size: 10vw;
+    font-size: 15px;
 }
 header{
     width:100%;
@@ -124,7 +124,7 @@ footer nav ul li {
     color:#F2994A;
     text-align: center;
 }
-#form {
+#c-form {
     justify-content:center;
     display:flex;
 }
@@ -137,10 +137,10 @@ footer nav ul li {
     margin-left: 5em;
     margin-top: 5em;
 }
-#form {
+#c-form {
     margin-top: 5em;
 }
-#form #name{
+#c-form #name{
     justify-content:center;
     display:flex;
 }
@@ -158,7 +158,7 @@ footer nav ul li {
     cursor: pointer;
     
   }
-#name {
+#fname {
     height: 2rem;
     text-align:center;
 }
@@ -213,6 +213,11 @@ footer nav ul li {
     text-align:center;
     width: 20rem;
 }
+#signup #lname{
+    height: 2rem;
+    text-align:center;
+    width: 20rem;
+}
 #signup #email{
     height: 2rem;
     text-align:center;
@@ -223,9 +228,27 @@ footer nav ul li {
     text-align:center;
     width: 20rem;
 }
+#signup #confirm{
+    height: 2rem;
+    text-align:center;
+    width: 20rem;
+}
 #signup #signin p{
-    color: silver;
+    color: #5A554D;
     
+}
+#signup #signin a{
+    background-color:#F2994A;
+    border: none;
+    color: #5A554D;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 4px 2px 4px 40px;
+    cursor: pointer;
+    text-transform: capitalize;
 }
 #signup .button{
     background-color:#F2994A;
@@ -239,6 +262,7 @@ footer nav ul li {
     margin: 4px 2px 4px 40px;
     cursor: pointer;
 }
+
 #signin h2{
     text-align: center;
     color: #F2994A;
@@ -249,20 +273,29 @@ footer nav ul li {
     text-align:center;
     margin-bottom:80px;
 }
-#signin #email{
+#signin #email , #signin #password{
     height: 2rem;
     text-align:center;
     width: 20rem;
 }
-#signin #password{
-    height: 2rem;
-    text-align:center;
-    width: 20rem;
-}
+
 #signin #signup p{
-    color: silver;
+    color: #5A554D;
     margin-left:3rem;
     
+}
+#signin #signup a{
+    background-color:#F2994A;
+    border: none;
+    color: #5A554D;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 4px 2px 4px 40px;
+    cursor: pointer;
+    text-transform: capitalize;
 }
 #signin .button{
     background-color:#F2994A;
@@ -298,7 +331,8 @@ footer nav ul li {
 #address p{
     color:#F2994A;
 }
-img {
-    max-width:100%;
-    height:auto;
-}
+/* .display{
+    display: none;
+    color:red;
+
+} */
