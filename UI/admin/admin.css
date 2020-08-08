@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+* {
+    margin: 0;
+    padding:0;
+    font-family: Poppins;
+    font-size: 15px;
+}
+header{
+    width:100%;
+    height:100px;
+    background:#361707;
+}
+main{
+    width:100%;
+    /* height:600px; */
+    /* background:red; */
+/*     
+    color: #5A554D; */
+}
+nav {
+    margin: auto;
+    width: 80%;
+    padding: 2rem;
+}
+ nav a{
+    color:#F2994A;
+    text-decoration: none;
+    text-transform: uppercase; 
+}
+nav ul{ 
+    text-align:center;
+}
+nav li {
+    display: inline;
+    padding:2em;
+}
+
+.admin-wrapper{
+    display: flex;
+    height:600px;
+    
+}
+.admin-wrapper .left-sidebar{
+    flex: 3;
+    height:100%;
+    background-color: #cfc094;
+    
+}
+.admin-wrapper .left-sidebar ul{
+    list-style: none;
+    margin:0px;
+    padding: 0px;
+    
+}
+.admin-wrapper .left-sidebar ul li a{
+    padding: 18px;
+    display: block;
+    border-bottom: 1px solid #F2994A;
+    color: #5A554D;
+    text-decoration: none;
+    text-transform:capitalize;
+}
+.admin-wrapper .left-sidebar ul li a:hover{
+    background-color: chocolate;
+}
+.admin-wrapper .admin-content{
+    flex: 7;
+    height:100%;
+    padding: 40px 100px 100px;
+    overflow-y: scroll;
+
+}
+.btn-btn-big{
+    background-color:#F2994A;
+    border: 1px solid black;
+    border-radius: 4px;
+    color: #5A554D;
+    padding: 15px 10px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px 4px 2px;
+    cursor: pointer;
+}
+.admin-content .page-title{
+    text-align:center;
+    margin-bottom: 2rem;
+    margin-top: 3rem;
+    color:#F2994A;
+}
+table{
+    width:100%;
+    border-collapse: collapse;
+    font-size:1.1rem;
+}
+th, td{
+    padding:15px;
+    text-align: left;
+    border-bottom: 1px solid khaki;
+}
+.create{
+    color:green;
+    text-decoration: none;
+}
+.delete{
+    color:red;
+    text-decoration: none;
+}
+.update{
+    color:orange;
+    text-decoration: none;
+}
+.post{
+    color:blue;
+    text-decoration: none;
+}
+.create:hover, .delete:hover, .update:hover, .post:hover{
+    text-decoration: underline;
+}
+.text-type{
+    height: 2rem;
+    text-align:center;
+    width: 15px;
+}
+.content form{
+    text-align:center;
+}
+.add-btn{
+    background-color:#F2994A;
+    border: 1px solid black;
+    border-radius: 4px;
+    color: #5A554D;
+    padding: 5px 10px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 20px 2px 4px 2px;
+    cursor: pointer;
+}
+.content .input-title{
+    color:#26C695;
+}

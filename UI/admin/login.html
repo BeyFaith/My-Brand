@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="../styles.css"> 
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                  <li><a href="../index.html"><strong>Home</strong></a></li>
+                  <li><a href="../about.html"><strong>About</strong></a></li>
+                  <li><a href="../blog.html"><strong>Blog</strong></a></li>
+                  <li><a href="../contact.html"><strong>Get In Touch</strong></a></li>
+                  <li><a href="../signin.html">Sign In</a></li>
+                  <li><a href="../signup.html">Sign Up</a></li>
+                  <li><a href="admin.html"><img src="../images/admin.png" target="_self" height="30px"></a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div id="signin">
+                <h2>Admin Dashboard</h2>
+
+                <div id="error"></div>
+                <form id="form">
+                    <input id="email" type="text" placeholder="Email" name="email"><br><br>
+                    <div id="email-error"></div>
+                    <input id="password" type="text" placeholder="Password" name="password"><br><br>
+                    <div id="password-error"></div>
+                    <button type="submit" class="button">Sign In</button><br><br><br>
+                    
+                </form>
+            </div>
+        </main>
+               
+       <script src="login.js"></script>
+    </body>
+</html>
