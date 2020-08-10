@@ -20,16 +20,24 @@
         <main>
             <div id="signup">
                 <h2>Get On Board, It’s fast & super easy!</h2>
-                <form>
-                    <input id="name" type="text" placeholder="First Name" name="f.name" required><br><br>
-                    <input id="name"type="text" placeholder="Last Name" name="l.name" required><br><br>
-                    <input id="email" type="text" placeholder="Email" name="email" required><br><br>
-                    <input id="password" type="text" placeholder="Password" name="password" required><br><br>
-                    <input id="password"type="text" placeholder="Confirm" name="confirm" required><br><br>
+
+                <div id="error"></div>
+                <form id="form">
+                    <input id="fname" type="text" placeholder="First Name" name="f.name"><br><br>
+                    <div id="fname-error"></div>
+                    <input id="lname"type="text" placeholder="Last Name" name="l.name"><br><br>
+                    <div id="lname-error"></div>
+                    <input id="email" type="text" placeholder="Email" name="email"><br><br>
+                    <div id="email-error"></div>
+                    <input id="password" type="text" placeholder="Password" name="password"><br><br>
+                    <div id="password-error"></div>
+                    <input id="confirm"type="text" placeholder="Confirm" name="confirm"><br><br>
+                    <div id="confirm-error"></div>
                     <button type="submit" class="button">Sign Up</button><br><br><br>
+                    
                     <div id="signin">
                         <p>Already a member of  our family? Sign In instead.</p>
-                        <button type="submit" class="button">Sign In</button>
+                        <a href="./signin.html">Sign In</a>
                     </div>
                 </form>
             </div>
@@ -46,5 +54,6 @@
                 </ul>
             </nav>
         </footer>
+        <script src="signup.js"></script>
     </body>
 </html>
