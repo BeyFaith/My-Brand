@@ -32,7 +32,31 @@
                 </form>
             </div>
         </main>
-               
+                              <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-auth.js"></script>
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-analytics.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-database.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyBgmYxezREGlXA_LsAkWQTphsrK6Ajsk5o",
+    authDomain: "my-brand-cb287.firebaseapp.com",
+    databaseURL: "https://my-brand-cb287.firebaseio.com",
+    projectId: "my-brand-cb287",
+    storageBucket: "my-brand-cb287.appspot.com",
+    messagingSenderId: "440889793988",
+    appId: "1:440889793988:web:2d1ca70cc0fe0d04641891",
+    measurementId: "G-WNSN6D6K29"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+  const db = firebase.database();
+</script>
        <script src="login.js"></script>
     </body>
 </html>
