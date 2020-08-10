@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Admin section-CP</title>
+    <!-- <link rel="stylesheet" type="text/css" href="../../styles.css"> -->
+    <link rel="stylesheet" type="text/css" href="../admin.css">
+  </head>
+  <body>
+        <header>
+          <nav>
+              <ul>
+                <li><a href="admin.html"></a><img src="../../images/admin.png" target="_self" height="30px"></li>
+                <li><a href="#" class="logout">Log Out</a></li>
+              </ul>
+          </nav>
+        </header>
+        <main>
+          
+            <div class="admin-wrapper">
+
+                <div class="left-sidebar">
+
+                    <ul>
+                        <li><a href="../users/create.html">Manage Users</a></li>
+                        <li><a href="create.html">Manage Articles</a></li>
+                        <li><a href="../questions/index.html">Queries/Questions</a></li>
+                    </ul>
+                </div>
+
+                <div class="admin-content">
+
+                    <div class="button-group">
+                        <a href="create.html"class="btn-btn-big">Add article</a>
+                        <a href="index.html" class="btn-btn-big">Manage article</a>
+                    </div>
+
+                    <div class="content">
+                        <h2 class="page-title">Create Articles</h2>
+                        <form action="create.html" method="post">
+                            <div>
+                                <lable class="input-title">Title</lable><br>
+                                <input type="text" name="title" placeholder="Tittle for your article" class="text-input"><br><br>
+                                <label class="input-title">Article</label><br>
+                                <textarea rows="5" cols="20" type="text" placeholder="Write your article here" class="article-input"></textarea><br><br>
+                            </div>
+                            <label class="input-title">Topic</label><br>
+                            <select class="select-field">
+                                <option value="coding">Coding</option>
+                                <option value="food">Food</option>
+                                <option value="laugh">Le'ts Laugh together</option>
+                            </select>
+                            <div>
+                                <button class="add-btn">Add</button>
+                            </div>
+                        </form>
+                  
+                    </div>
+                </div>
+            </div>
+        </main>
+        <script src="articles.js"></script>
+  </body>
+</html>

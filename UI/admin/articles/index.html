@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Admin section-MP</title>
+    <!-- <link rel="stylesheet" type="text/css" href="../../styles.css"> -->
+    <link rel="stylesheet" type="text/css" href="../admin.css">
+  </head>
+  <body>
+        <header>
+          <nav>
+              <ul>
+                <li><a href="admin.html"></a><img src="../../images/admin.png" target="_self" height="30px"></li>
+                <li><a href="#" class="logout">Log Out</a></li>
+              </ul>
+          </nav>
+        </header>
+        <main>
+          
+            <div class="admin-wrapper">
+
+              <div class="left-sidebar">
+
+               <ul>
+                  <li><a href="../users/index.html">Manage Users</a></li>
+                  <li><a href="../articles/index.html">Manage Articles</a></li>
+                  <li><a href="../questions/index.html">Queries/Questions</a></li>
+                </ul>
+
+              </div>
+
+              <div class="admin-content">
+
+                <div class="button-group">
+                  <a href="create.html"class="btn-btn-big">Add article</a>
+                  <a href="index.html" class="btn-btn-big">Manage article</a>
+                </div>
+
+                <div class="content">
+                  <h2 class="page-title">Manage Articles</h2>
+                  <table>
+                    <thead>
+                      <th>SN</th>
+                      <th>Tittle</th>
+                      <th>Author</th>
+                      <th colspan="4">Action</th>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>1</td>
+                        <td>This is the first post</td>
+                        <td>Bey Faith</td>
+                        <td><a href="#"class="create">Create</a></td>
+                        <td><a href="#" class="update">Update</a></td>
+                        <td><a href="#" class="delete">Delete</a></td>
+                        <td><a href="#" class="post">Post</a></td>
+                      </tr>
+
+                      <tr>
+                        <td>2</td>
+                        <td>This is my secnd post</td>
+                        <td>Amaliza Kabuto</td>
+                        <td><a href="#"class="create">Create</a></td>
+                        <td><a href="#" class="update">Update</a></td>
+                        <td><a href="#" class="delete">Delete</a></td>
+                        <td><a href="#" class="post">Post</a></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+
+              </div>
+            </div>
+        </main>
+        <script src="articles.js"></script>
+  </body>
+</html>
