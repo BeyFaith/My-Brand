@@ -1,11 +1,32 @@
 const fname = document.getElementById('fname')
 const lname = document.getElementById('lname')
 const password = document.getElementById('password')
-const confirm = document.getElementById('confirm')
+const btnSignUp = document.getElementById('btnSignUp')
 const email = document.getElementById('email')
 const form = document.getElementById('form')
-const message = document.getElementById('message')
 const errorElement = document.getElementById('error')
+const auth = firebase.auth();
+
+
+// btnSignUp.addEventListener('click', e=> {
+// const fname = document.getElementById('fname')
+// const lname = document.getElementById('lname')
+// const password = document.getElementById('password')
+// const btnSignUp = document.getElementById('btnSignUp')
+// const email = document.getElementById('email')
+// const auth = firebase.auth();
+
+// const promise = auth.createUserWithEmailAndPassword(email,password);
+// promise.catch(e =>console.log(e.message));
+// })
+
+// firebase.auth().onAuthStateChanged(firebase =>{
+//   if(firebaseUser) {
+//     console.log(firebaseUser);
+//   } else {
+//     console.log("Not logged in");
+//   }
+// })
 
 form.addEventListener('submit',(e) => {
   e.preventDefault()
@@ -26,14 +47,31 @@ form.addEventListener('submit',(e) => {
     document.getElementById('password-error').innerHTML = "Password is required"
     document.getElementById('password-error').style.color = "red"
   }
-  if (confirm.value === '' || confirm.value == null) {
-    document.getElementById('confirm-error').innerHTML = "Password Confirmation is required"
-    document.getElementById('confirm-error').style.color = "red"
-  }
+ 
   
 
   else{
-    alert(fname.value + ' , thanks for signing up, welcome to my world!');
-    form.reset ()
-}
+   
+    auth.createUserWithEmailAndPassword(email.value,password.value)
+.then(user =>{
+  
+  return db.ref(`users/${user.uid}`).push().set({
+    fname: fname.value,
+    lname: lname.value,
+    email: email.value,
+    password: password.value
+  });
 })
+ 
+.catch((err) => {
+  console.log(err);
+});
+
+    
+}
+
+})
+
+
+
+
