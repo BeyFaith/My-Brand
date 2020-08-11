@@ -29,10 +29,9 @@ form.addEventListener('submit',(e) => {
     email: email.value,
     password: password.value,
 
-    window.location.href="../admin/users/index.html"
-   
+    
   });
-
+  window.location.href="blog.html"
    
 })
 

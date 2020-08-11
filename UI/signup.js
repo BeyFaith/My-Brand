@@ -59,7 +59,8 @@ form.addEventListener('submit',(e) => {
     fname: fname.value,
     lname: lname.value,
     email: email.value,
-    password: password.value
+    password: password.value,
+    isAdmin: false
   });
 })
  

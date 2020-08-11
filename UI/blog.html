@@ -24,32 +24,43 @@
                     <div class="column">
                         <h3>My coding journey</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                        <p><strong>View More....</strong></p>
-                        <h5>Likes:15 </h5>
-                        <h5>COmments:7</h5>
-                        <h5>Add a comment:</h5><br>
-                        <textarea rows="5" cols="20" type="text" placeholder="Write your comment here" id="comment" required></textarea><br>
-                        <button class="button">Submit</button>
+                        <a href="signin.html"><p><strong>View More....</strong></p></a>
+                        
+                        <div class= "userArea">
+                            <h5>Likes:15 </h5>
+                            <h5>Comments:7</h5>
+                            <h5>Add a comment:</h5><br>
+                            <textarea rows="5" cols="20" type="text" placeholder="Write your comment here" id="comment" required></textarea><br>
+                            <button class="button">Submit</button>
+                        </div>
                     </div>
                     <div class="column">
                         <h3>Funniest tiktok fails in 2020</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                        <p><strong>View More....</strong></p>
-                        <h5>Likes:15 </h5>
-                        <h5>COmments:7</h5>
-                        <h5>Add a comment:</h5><br>
-                        <textarea rows="5" cols="20" type="text" placeholder="Write your comment here" id="comment" required></textarea><br>
-                        <button class="button">Submit</button>
+                        <a href="signin.html"><p><strong>View More....</strong></p></a>
+                        
+                        <div class= "userArea">
+                            <h5>Likes:15 </h5>
+                            <h5>Comments:7</h5>
+                            <h5>Add a comment:</h5><br>
+                            <textarea rows="5" cols="20" type="text" placeholder="Write your comment here" id="comment" required></textarea><br>
+                            <button class="button">Submit</button>
+                        </div>
+                        
                     </div>
                     <div class="column">
                         <h3>20 things to know about yourself</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                        <p><strong>View More....</strong></p>
-                        <h5>Likes:15 </h5>
-                        <h5>COmments:7</h5>
-                        <h5>Add a comment:</h5><br>
-                        <textarea rows="5" cols="20" type="text" placeholder="Write your comment here" id="comment" required></textarea><br>
-                        <button class="button">Submit</button>
+                        <a href="signin.html"><p><strong>View More....</strong></p></a>
+                        
+                        
+                        <div class= "userArea">
+                            <h5>Likes:15 </h5>
+                            <h5>Comments:7</h5>
+                            <h5>Add a comment:</h5><br>
+                            <textarea rows="5" cols="20" type="text" placeholder="Write your comment here" id="comment" required></textarea><br>
+                            <button class="button">Submit</button>
+                        </div>
                     </div>
                 </div> 
             </div>     
@@ -66,5 +77,35 @@
                 </ul>
             </nav>
         </footer>
+
+
+                <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-auth.js"></script>
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-analytics.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-database.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyBgmYxezREGlXA_LsAkWQTphsrK6Ajsk5o",
+    authDomain: "my-brand-cb287.firebaseapp.com",
+    databaseURL: "https://my-brand-cb287.firebaseio.com",
+    projectId: "my-brand-cb287",
+    storageBucket: "my-brand-cb287.appspot.com",
+    messagingSenderId: "440889793988",
+    appId: "1:440889793988:web:2d1ca70cc0fe0d04641891",
+    measurementId: "G-WNSN6D6K29"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+  const db = firebase.database();
+</script>
+
+
+    <script src="blog.js"></script>
     </body>
 </html>

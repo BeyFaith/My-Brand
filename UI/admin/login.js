@@ -2,6 +2,7 @@ const email = document.getElementById('email')
 const password = document.getElementById('password')
 const form = document.getElementById('form')
 const errorElement = document.getElementById('error')
+const auth = firebase.auth();
 
 
 form.addEventListener('submit',(e) => {
@@ -18,8 +19,25 @@ form.addEventListener('submit',(e) => {
   }
   
   else{
-    alert( 'Dear User, thanks for signing in');
-    form.reset ()
+   
+    auth.signInWithEmailAndPassword(email.value,password.value)
+.then(user =>{
+  
+  db.ref(`users/${user.uid}`).push().set({
+    email: email.value,
+    password: password.value,
+
+    
+  });
+  window.location.href="users/index.html"
+   
+})
+
+.catch((err) => {
+  console.log(err);
+});
+
+    
 }
   
 })
