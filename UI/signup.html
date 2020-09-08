@@ -1,89 +1,145 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <link rel="stylesheet" type="text/css" href="./styles.css"> 
-    </head>
-    <body>
-        <header>
-            <nav>
-                <ul>
-                  <li><a href="index.html"><strong>Home</strong></a></li>
-                  <li><a href="about.html"><strong>About</strong></a></li>
-                  <li><a href="blog.html"><strong>Blog</strong></a></li>
-                  <li><a href="contact.html"><strong>Get In Touch</strong></a></li>
-                  <li><a href="signin.html">Sign in</a></li>
-                  <li><a href="signup.html">Sign Up</a></li>
-                  <li><a href="../UI/admin/login.html"><img src="./images/admin.png" target="_self" height="30px"></a></li>
-                </ul>
-            </nav>
-        </header>
-        <main>
-            <div id="signup">
-                <h2>Get On Board, It’s fast & super easy!</h2>
+  <head>
+    <link rel="stylesheet" type="text/css" href="./styles.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li>
+            <a href="index.html"><strong>Home</strong></a>
+          </li>
+          <li>
+            <a href="about.html"><strong>About</strong></a>
+          </li>
+          <li>
+            <a href="blog.html"><strong>Blog</strong></a>
+          </li>
+          <li>
+            <a href="contact.html"><strong>Get In Touch</strong></a>
+          </li>
+          <li><a href="signin.html">Sign in</a></li>
+          <li><a href="signup.html">Sign Up</a></li>
+          <li>
+            <a href="../UI/admin/login.html"
+              ><img src="./images/user.svg" target="_self"
+            /></a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div id="signup">
+        <h2>Get On Board, It’s fast & super easy!</h2>
 
-                <div id="error"></div>
-                <form id="form">
-                    <input id="fname" type="text" placeholder="First Name" name="f.name"><br><br>
-                    <div id="fname-error"></div>
-                    <input id="lname"type="text" placeholder="Last Name" name="l.name"><br><br>
-                    <div id="lname-error"></div>
-                    <input id="email" type="text" placeholder="Email" name="email"><br><br>
-                    <div id="email-error"></div>
-                    <input id="password" type="text" placeholder="Password" name="password"><br><br>
-                    <div id="password-error"></div>
-                    <input id="confirm"type="text" placeholder="Confirm" name="confirm"><br><br>
-                    <div id="confirm-error"></div>
-                    <button type="submit" class="button" id="btnSignUp">Sign Up</button><br><br><br>
-                    
-                    <div id="signin">
-                        <p>Already a member of  our family? Sign In instead.</p>
-                        <a href="./signin.html">Sign In</a>
-                    </div>
-                </form>
-            </div>
-        </main>
-        <footer>
-            <nav>
-                <ul>
-                    <li>Connect with me</li>
-                    <li><a href="https://twitter.com/BeyFaith" target="_blank"><img src="./images/icons8-twitter-48 (1).png"></a></li>
-                    <li><a href="https://www.linkedin.com/in/faith-bey-86533315a/" target="_blank"><img src="./images/icons8-linkedin-48.png"></a></li>
-                    <li><a href="https://github.com/BeyFaith" target="_blank"><img src="./images/icons8-github-48.png"></a></li>
-                    <li><a href="https://accounts.google.com/signin/v2/identifier?hl=en&continue=https%3A%2F%2Fmail.google.com%2Fmail&service=mail&flowName=GlifWebSignIn&flowEntry=AddSession" target="_blank"><img src="./images/icons8-gmail-48.png"></a></li>
-                    <li>Bey Faith 2020</li>
-                </ul>
-            </nav>
-        </footer>
+        <div id="error"></div>
+        <form id="form">
+          <input
+            id="fname"
+            type="text"
+            placeholder="First Name"
+            name="f.name"
+          /><br /><br />
+          <div id="fname-error"></div>
+          <input
+            id="lname"
+            type="text"
+            placeholder="Last Name"
+            name="l.name"
+          /><br /><br />
+          <div id="lname-error"></div>
+          <input
+            id="email"
+            type="text"
+            placeholder="Email"
+            name="email"
+          /><br /><br />
+          <div id="email-error"></div>
+          <input
+            id="password"
+            type="password"
+            placeholder="Password"
+            name="password"
+          /><br /><br />
+          <div id="password-error"></div>
+          <input
+            id="confirm"
+            type="password"
+            placeholder="Confirm"
+            name="confirm"
+          /><br /><br />
+          <div id="confirm-error"></div>
+          <button type="submit" class="button" id="btnSignUp">Sign Up</button
+          ><br /><br /><br />
 
-        <!-- The core Firebase JS SDK is always required and must be listed first -->
-<script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-app.js"></script>
-<script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-auth.js"></script>
-<!-- TODO: Add SDKs for Firebase products that you want to use
+          <div id="signin">
+            <p>Already a member of our family? Sign In instead.</p>
+            <a href="./signin.html">Sign In</a>
+          </div>
+        </form>
+      </div>
+    </main>
+    <footer>
+      <nav>
+        <ul>
+          <li>Connect with me</li>
+          <li>
+            <a href="https://twitter.com/BeyFaith" target="_blank"
+              ><img src="./images/icons8-twitter-48 (1).png"
+            /></a>
+          </li>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/faith-bey-86533315a/"
+              target="_blank"
+              ><img src="./images/icons8-linkedin-48.png"
+            /></a>
+          </li>
+          <li>
+            <a href="https://github.com/BeyFaith" target="_blank"
+              ><img src="./images/icons8-github-48.png"
+            /></a>
+          </li>
+          <li>
+            <a
+              href="https://accounts.google.com/signin/v2/identifier?hl=en&continue=https%3A%2F%2Fmail.google.com%2Fmail&service=mail&flowName=GlifWebSignIn&flowEntry=AddSession"
+              target="_blank"
+              ><img src="./images/icons8-gmail-48.png"
+            /></a>
+          </li>
+          <li>Bey Faith 2020</li>
+        </ul>
+      </nav>
+    </footer>
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-auth.js"></script>
+    <!-- TODO: Add SDKs for Firebase products that you want to use
      https://firebase.google.com/docs/web/setup#available-libraries -->
-<script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-analytics.js"></script>
-<script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-database.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-analytics.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-database.js"></script>
 
-<script>
-  // Your web app's Firebase configuration
-  var firebaseConfig = {
-    apiKey: "AIzaSyBgmYxezREGlXA_LsAkWQTphsrK6Ajsk5o",
-    authDomain: "my-brand-cb287.firebaseapp.com",
-    databaseURL: "https://my-brand-cb287.firebaseio.com",
-    projectId: "my-brand-cb287",
-    storageBucket: "my-brand-cb287.appspot.com",
-    messagingSenderId: "440889793988",
-    appId: "1:440889793988:web:2d1ca70cc0fe0d04641891",
-    measurementId: "G-WNSN6D6K29"
-  };
-  // Initialize Firebase
-  firebase.initializeApp(firebaseConfig);
-  firebase.analytics();
-  const db = firebase.database();
-</script>
+    <script>
+      // Your web app's Firebase configuration
+      var firebaseConfig = {
+        apiKey: "AIzaSyBgmYxezREGlXA_LsAkWQTphsrK6Ajsk5o",
+        authDomain: "my-brand-cb287.firebaseapp.com",
+        databaseURL: "https://my-brand-cb287.firebaseio.com",
+        projectId: "my-brand-cb287",
+        storageBucket: "my-brand-cb287.appspot.com",
+        messagingSenderId: "440889793988",
+        appId: "1:440889793988:web:2d1ca70cc0fe0d04641891",
+        measurementId: "G-WNSN6D6K29",
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+      firebase.analytics();
+      const db = firebase.database();
+    </script>
 
-
-        <script src="signup.js"></script>
-
-        
-    </body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.2/axios.min.js"></script>
+    <script src="signup.js"></script>
+  </body>
 </html>

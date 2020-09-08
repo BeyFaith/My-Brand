@@ -1,62 +1,61 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <link rel="stylesheet" type="text/css" href="../styles.css"> 
-    </head>
-    <body>
-        <header>
-            <nav>
-                <ul>
-                  <li><a href="../index.html"><strong>Home</strong></a></li>
-                  <li><a href="../about.html"><strong>About</strong></a></li>
-                  <li><a href="../blog.html"><strong>Blog</strong></a></li>
-                  <li><a href="../contact.html"><strong>Get In Touch</strong></a></li>
-                  <li><a href="../signin.html">Sign In</a></li>
-                  <li><a href="../signup.html">Sign Up</a></li>
-                  <li><a href="admin.html"><img src="../images/admin.png" target="_self" height="30px"></a></li>
-                </ul>
-            </nav>
-        </header>
-        <main>
-            <div id="signin">
-                <h2>Admin Dashboard</h2>
+  <head>
+    <link rel="stylesheet" type="text/css" href="../styles.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li>
+            <a href="../index.html"><strong>Home</strong></a>
+          </li>
+          <li>
+            <a href="../about.html"><strong>About</strong></a>
+          </li>
+          <li>
+            <a href="../blog.html"><strong>Blog</strong></a>
+          </li>
+          <li>
+            <a href="../contact.html"><strong>Get In Touch</strong></a>
+          </li>
+          <li><a href="../signin.html">Sign In</a></li>
+          <li><a href="../signup.html">Sign Up</a></li>
+          <li>
+            <a href="./articles/index.html"
+              ><img src="../images/user.svg" target="_self" height="30px"
+            /></a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div id="signin">
+        <h2>Admin Dashboard</h2>
 
-                <div id="error"></div>
-                <form id="form">
-                    <input id="email" type="text" placeholder="Email" name="email"><br><br>
-                    <div id="email-error"></div>
-                    <input id="password" type="text" placeholder="Password" name="password"><br><br>
-                    <div id="password-error"></div>
-                    <button type="submit" class="button">Sign In</button><br><br><br>
-                    
-                </form>
-            </div>
-        </main>
-                              <!-- The core Firebase JS SDK is always required and must be listed first -->
-<script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-app.js"></script>
-<script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-auth.js"></script>
-<!-- TODO: Add SDKs for Firebase products that you want to use
-     https://firebase.google.com/docs/web/setup#available-libraries -->
-<script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-analytics.js"></script>
-<script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-database.js"></script>
+        <div id="error"></div>
+        <form id="form">
+          <input
+            id="email"
+            type="text"
+            placeholder="Email"
+            name="email"
+          /><br /><br />
+          <div id="email-error"></div>
+          <input
+            id="password"
+            type="password"
+            placeholder="Password"
+            name="password"
+          /><br /><br />
+          <div id="password-error"></div>
+          <button type="submit" class="button">Sign In</button
+          ><br /><br /><br />
+        </form>
+      </div>
+    </main>
 
-<script>
-  // Your web app's Firebase configuration
-  var firebaseConfig = {
-    apiKey: "AIzaSyBgmYxezREGlXA_LsAkWQTphsrK6Ajsk5o",
-    authDomain: "my-brand-cb287.firebaseapp.com",
-    databaseURL: "https://my-brand-cb287.firebaseio.com",
-    projectId: "my-brand-cb287",
-    storageBucket: "my-brand-cb287.appspot.com",
-    messagingSenderId: "440889793988",
-    appId: "1:440889793988:web:2d1ca70cc0fe0d04641891",
-    measurementId: "G-WNSN6D6K29"
-  };
-  // Initialize Firebase
-  firebase.initializeApp(firebaseConfig);
-  firebase.analytics();
-  const db = firebase.database();
-</script>
-       <script src="login.js"></script>
-    </body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.2/axios.min.js"></script>
+    <script src="login.js"></script>
+  </body>
 </html>

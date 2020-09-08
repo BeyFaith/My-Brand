@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
 
 /* @media only screen and (max-width:500px) {
     header{
@@ -8,332 +8,322 @@
     }
 } */
 * {
-    margin: 0;
-    padding:0;
-    font-family: Poppins;
-    font-size: 15px;
+  margin: 0;
+  padding: 0;
+  font-family: Poppins;
+  font-size: 15px;
 }
-header{
-    width:100%;
-    height:10hv;
-    background:#7E685A;
+header {
+  width: 100%;
+
+  background: #7e685a;
 }
-main{
-    width:80%;
-    height:100hv;
-    background:white;
-    margin:auto;
-    color: #5A554D;
+main {
+  width: 80%;
+  min-height: 60vh;
+  background: white;
+  margin: auto;
+  color: #5a554d;
 }
-footer{
-    width: 100%;
-    height:3hv;
-    background:#7E685A;
-    
+footer {
+  width: 100%;
+
+  background: #7e685a;
 }
 nav {
-    margin: auto;
-    width: 80%;
-    padding: 2rem;
+  margin: auto;
+  width: 80%;
+  padding: 2rem;
 }
-a{
-    color:#F2994A;
-    text-decoration: none;
-    text-transform: uppercase; 
+a {
+  color: #f2994a;
+  text-decoration: none;
+  text-transform: uppercase;
 }
-ul{ 
-    text-align:center;
+ul {
+  text-align: center;
 }
 li {
-    display: inline;
-    padding:2em;
+  display: inline;
+  padding: 2em;
 }
 
 footer nav ul li {
-    
-    color:#F2994A;
+  color: #f2994a;
 }
 #intro {
-    justify-content:center;
-    margin-left: 5em;
-    margin-top: 5em;
-    display:flex;
-    align-items:center;
+  justify-content: center;
+  margin-left: 5em;
+  margin-top: 5em;
+  display: flex;
+  align-items: center;
 }
-#intro img{
-    border-radius: 2rem;
-    /* width:200px; */
+#intro img {
+  border-radius: 2rem;
+  /* width:200px; */
 }
 
 .words {
-    margin-left: 3em;
-    padding: 2em;
-    color:#F2994A;
-    /* font-size: 30px; */
+  margin-left: 3em;
+  padding: 2em;
+  color: #f2994a;
+  /* font-size: 30px; */
 }
 .m {
-    margin: 2rem 0 2rem 0;
-    
+  margin: 2rem 0 2rem 0;
 }
-#projects>h2{
-    justify-content:center;
-    display:flex;
-    margin-top: 4rem;
-    color: #F2994A;
+#projects > h2 {
+  justify-content: center;
+  display: flex;
+  margin-top: 4rem;
+  color: #f2994a;
 }
 .row {
-    display: flex;
+  display: flex;
 }
-  
+
 .column {
-    flex: 33.33%;
-    padding: 5px;
+  flex: 33.33%;
+  padding: 5px;
 }
 #projects {
-    width:100%;
-    position:relative;
+  width: 100%;
+  position: relative;
 }
-#projects .row{
-    margin:auto;
-    width:80%;
+#projects .row {
+  margin: auto;
+  width: 80%;
 }
-#projects .row .column img{
-    width:80%;
-    height:auto;
+#projects .row .column img {
+  width: 80%;
+  height: auto;
 }
-#about>h2{
-    justify-content:center;
-    display:flex;
-    margin-top: 2rem;
-    color: #AFD275;
-    margin-bottom: 2rem;
-    text-decoration: underline;
+#about > h2 {
+  justify-content: center;
+  display: flex;
+  margin-top: 2rem;
+  color: #afd275;
+  margin-bottom: 2rem;
+  text-decoration: underline;
 }
 
-#about .row{
-    margin:auto;
-    width:80%;
+#about .row {
+  margin: auto;
+  width: 80%;
 }
-#about .row .column p{
-    width:80%;
-    height:auto;
-    text-align:center;
-    color: #5A554D;
-
+#about .row .column p {
+  width: 80%;
+  height: auto;
+  text-align: center;
+  color: #5a554d;
 }
 .column h4 {
-    color:#F2994A;
-    text-align: center;
+  color: #f2994a;
+  text-align: center;
 }
 #c-form {
-    justify-content:center;
-    display:flex;
+  justify-content: center;
+  display: flex;
 }
 #contact h2 {
-    justify-content:center;
-    display:flex;
-    color: #F2994A;
+  justify-content: center;
+  display: flex;
+  color: #f2994a;
 }
-#contact{
-    margin-left: 5em;
-    margin-top: 5em;
+#contact {
+  margin-left: 5em;
+  margin-top: 5em;
 }
 #c-form {
-    margin-top: 5em;
+  margin-top: 5em;
 }
-#c-form #name{
-    justify-content:center;
-    display:flex;
+#c-form #name {
+  justify-content: center;
+  display: flex;
 }
 
 .button {
-    background-color:#F2994A;
-    border: none;
-    color: #5A554D;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px 4px 130px;
-    cursor: pointer;
-    
-  }
+  background-color: #f2994a;
+  border: none;
+  color: #5a554d;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px 4px 130px;
+  cursor: pointer;
+}
 #fname {
-    height: 2rem;
-    text-align:center;
+  height: 2rem;
+  text-align: center;
 }
 #contact #email {
-    height: 2rem;
-    text-align:center;
+  height: 2rem;
+  text-align: center;
 }
-#message{
-    text-align: center;
+#message {
+  text-align: center;
 }
-#blog h2{
-    text-align: center;
-    color: #F2994A;
-    margin-top: 3rem;
-    margin-bottom: 3rem;
+#blog h2 {
+  text-align: center;
+  color: #f2994a;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
 }
-#blog h3{
-    color:#AFD275;
-    text-decoration: underline;
-
+#blog h3 {
+  color: #afd275;
+  text-decoration: underline;
 }
-#blog p{
-    color: #5A554D;
+#blog p {
+  color: #5a554d;
 }
-#blog h5{
-    color: #F2994A;
+#blog h5 {
+  color: #f2994a;
 }
 #blog .button {
-    background-color:#F2994A;
-    border: none;
-    color: #5A554D;
-    padding: 10px 15px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 15px;
-    margin: 4px 2px 4px 70px;
-    cursor: pointer;
-    
+  background-color: #f2994a;
+  border: none;
+  color: #5a554d;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  margin: 4px 2px 4px 70px;
+  cursor: pointer;
 }
-#signup h2{
-    text-align: center;
-    color: #F2994A;
-    margin-top: 3rem;
-    margin-bottom: 3rem;
+#signup h2 {
+  text-align: center;
+  color: #f2994a;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
 }
-#signup form{
-    text-align:center;
+#signup form {
+  text-align: center;
 }
-#signup #name{
-    height: 2rem;
-    text-align:center;
-    width: 20rem;
+#signup #name {
+  height: 2rem;
+  text-align: center;
+  width: 20rem;
 }
-#signup #lname{
-    height: 2rem;
-    text-align:center;
-    width: 20rem;
+#signup #lname {
+  height: 2rem;
+  text-align: center;
+  width: 20rem;
 }
-#signup #email{
-    height: 2rem;
-    text-align:center;
-    width: 20rem;
+#signup #email {
+  height: 2rem;
+  text-align: center;
+  width: 20rem;
 }
-#signup #password{
-    height: 2rem;
-    text-align:center;
-    width: 20rem;
+#signup #password {
+  height: 2rem;
+  text-align: center;
+  width: 20rem;
 }
-#signup #confirm{
-    height: 2rem;
-    text-align:center;
-    width: 20rem;
+#signup #confirm {
+  height: 2rem;
+  text-align: center;
+  width: 20rem;
 }
-#signup #signin p{
-    color: #5A554D;
-    
+#signup #signin p {
+  color: #5a554d;
 }
-#signup #signin a{
-    background-color:#F2994A;
-    border: none;
-    color: #5A554D;
-    padding: 10px 15px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 15px;
-    margin: 4px 2px 4px 40px;
-    cursor: pointer;
-    text-transform: capitalize;
+#signup #signin a {
+  background-color: #f2994a;
+  border: none;
+  color: #5a554d;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  margin: 4px 2px 4px 40px;
+  cursor: pointer;
+  text-transform: capitalize;
 }
-#signup .button{
-    background-color:#F2994A;
-    border: none;
-    color: #5A554D;
-    padding: 10px 15px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 15px;
-    margin: 4px 2px 4px 40px;
-    cursor: pointer;
+#signup .button {
+  background-color: #f2994a;
+  border: none;
+  color: #5a554d;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  margin: 4px 2px 4px 40px;
+  cursor: pointer;
 }
 
-#signin h2{
-    text-align: center;
-    color: #F2994A;
-    margin-top: 3rem;
-    margin-bottom: 3rem;
+#signin h2 {
+  text-align: center;
+  color: #f2994a;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
 }
-#signin form{
-    text-align:center;
-    margin-bottom:80px;
+#signin form {
+  text-align: center;
+  margin-bottom: 80px;
 }
-#signin #email , #signin #password{
-    height: 2rem;
-    text-align:center;
-    width: 20rem;
+#signin #email,
+#signin #password {
+  height: 2rem;
+  text-align: center;
+  width: 20rem;
 }
 
-#signin #signup p{
-    color: #5A554D;
-    margin-left:3rem;
-    
+#signin #signup p {
+  color: #5a554d;
+  margin-left: 3rem;
 }
-#signin #signup a{
-    background-color:#F2994A;
-    border: none;
-    color: #5A554D;
-    padding: 10px 15px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 15px;
-    margin: 4px 2px 4px 40px;
-    cursor: pointer;
-    text-transform: capitalize;
+#signin #signup a {
+  background-color: #f2994a;
+  border: none;
+  color: #5a554d;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  margin: 4px 2px 4px 40px;
+  cursor: pointer;
+  text-transform: capitalize;
 }
-#signin .button{
-    background-color:#F2994A;
-    border: none;
-    color: #5A554D;
-    padding: 10px 10px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 15px;
-    margin: 4px 2px 4px 40px;
-    cursor: pointer;
+#signin .button {
+  background-color: #f2994a;
+  border: none;
+  color: #5a554d;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  margin: 4px 2px 4px 40px;
+  cursor: pointer;
 }
-#description p{
-    color: #5A554D;
+#description p {
+  color: #5a554d;
 }
-#address{
-    border-style: solid;
-    width:300px;
-    border-radius: 1rem;
-    border-color: #5A554D;
-    text-align: center;
-    margin-left:400px;
-    margin-top:30px;
-    margin-bottom:30px;
+#address {
+  border-style: solid;
+  width: 300px;
+  border-radius: 1rem;
+  border-color: #5a554d;
+  text-align: center;
+  margin-left: 400px;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
-#address h4{
-    color:#AFD275;
+#address h4 {
+  color: #afd275;
 }
-#address h5{
-    color:#AFD275; 
+#address h5 {
+  color: #afd275;
 }
-#address p{
-    color:#F2994A;
+#address p {
+  color: #f2994a;
 }
-/* .display{
-    display: none;
-    color:red;
-
-} */
+#logoutBtn {
+  display: none;
+}
